@@ -63,17 +63,25 @@ features                                  :
     description                           : Fix blurry or damaged text in your images. We'll restore text clarity while maintaining the original style and layout.
     fontawesome_icon_name                 : font
 
+  - title                                 : Upscale Photo
+    description                           : Increase the resolution of your photos by 2x while retaining clarity and detail, perfect for printing or high-resolution displays.
+    fontawesome_icon_name                 : expand-arrows-alt
+
   - title                                 : Unblur Photo
     description                           : Transform blurry photos into sharp, clear images while maintaining the authentic look and feel of the original.
     fontawesome_icon_name                 : camera
 
-  - title                                 : Cartoonify
-    description                           : Transform your photos into various artistic styles including classic cartoon, anime, watercolor, and more.
-    fontawesome_icon_name                 : paint-brush
+  - title                                 : Resume Photo
+    description                           : Create a professional headshot perfect for resumes and LinkedIn profiles, enhancing your image with subtle retouching and background adjustments.
+    fontawesome_icon_name                 : user-tie
 
-  - title                                 : Pixelate
-    description                           : Convert your photos into pixel art masterpieces, perfect for retro-style graphics and creative projects.
-    fontawesome_icon_name                 : th
+  # - title                                 : Cartoonify
+  #   description                           : Transform your photos into various artistic styles including classic cartoon, anime, watercolor, and more.
+  #   fontawesome_icon_name                 : paint-brush
+
+  # - title                                 : Pixelate
+  #   description                           : Convert your photos into pixel art masterpieces, perfect for retro-style graphics and creative projects.
+  #   fontawesome_icon_name                 : th
 
   - title                                 : YouTube Thumbnail
     description                           : Create eye-catching YouTube thumbnails that stand out and attract more viewers to your content.
