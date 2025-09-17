@@ -19,7 +19,7 @@
 	<meta property="og:url" content="{{ page.url | absolute_url }}">
 	<meta property="og:type" content="{{ page.og_type | default: 'website' }}">
 	<meta property="og:site_name" content="{{ site.site_name }}">
-	<meta property="og:image" content="{{ page.og_image | default: site.og_image }}">
+	<meta property="og:image" content="{{ page.og_image | default: site.og_image | absolute_url }}">
 	<meta property="og:image:alt" content="{{ page.og_image_alt | default: 'Pixelfix - AI Photo Enhancer' }}">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
