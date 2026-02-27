@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Privacy Policy"
+title: "Privacy Policy"
 permalink: /privacy-policy
 comments: false
 imageshadow: false
@@ -8,39 +8,86 @@ include_in_header: false
 include_in_footer: true
 ---
 
-**Last updated**  
-October 2024
+**Last updated:** February 2026
 
 # Privacy Policy
 
-This following document sets forth the Privacy Policy for the _Pixelfix_ website and app, produced by _Foobar Creative_.
+This Privacy Policy explains how Foobar Creative ("we", "us", "our") handles your information when you use the Pixelfix app ("App") or website ("Site").
 
-_Foobar Creative_ is committed to providing you with the best possible customer service experience. _Foobar Creative_ is bound by the Privacy Act 1988 (Cth) (Australia), which sets out a number of principles concerning the privacy of individuals.
+We are bound by the Privacy Act 1988 (Cth) (Australia) and are committed to handling your information responsibly.
 
-### Collection of your personal information
+---
 
-Pixelfix does not collect personal information when viewing our website. Within the iOS app, non-personally identifiable data such as device locale, app version, operating system, and crash logs are collected to improve performance and troubleshoot issues. If you contact us via email, we will store your email address.
+### 1. What We Collect
 
-The app may also utilize third-party tools, such as Google Analytics and Facebook SDK, to monitor app performance and usage patterns.
+**When you use the App:**
+- Photos you submit for AI processing, which may include images of people
+- Text prompts you enter to describe the changes you want
+- An anonymous account identifier, created automatically on first launch (no name, email, or password required)
+- Device information such as device locale, app version, and operating system
+- Crash logs and app usage data, collected to improve performance
 
-### Sharing of your personal information
+**When you contact us:**
+- Your email address and the contents of your message
 
-We may employ other companies to provide services on our behalf, such as customer support or transaction processing. These companies will only have access to the personal information required to perform their services. Foobar Creative ensures these organizations comply with confidentiality and privacy obligations when handling your information.
+**When you purchase a subscription:**
+- Purchase and billing information is handled entirely by Apple. We receive only a non-identifiable receipt confirmation.
 
-### Use of your personal information
+We do not collect your name, email address, or any other personally identifying information unless you contact us directly.
 
-The non-personally identifiable information collected is used internally for performance monitoring, bug fixes, and app improvements. This includes user locale, app version, operating system, and crash data.
+---
 
-Any updates to our data collection practices will only apply to information collected after the policy change.
+### 2. Your Photos and Prompts — Where They Go
 
-### Changes to this Privacy Policy
+When you submit a photo and optional text prompt for AI processing, **that content is sent to third-party AI services**. We use one or more of the following depending on the project type:
 
-Foobar Creative reserves the right to modify this Privacy Policy at any time. Any significant changes will be reflected here. If you disagree with the Privacy Policy, please refrain from using the app or site.
+| Service | What's sent | Their retention |
+|---------|-------------|-----------------|
+| **FAL.ai** (fal.ai) | Your photo + text prompt | Up to 7 days, then deleted |
+| **OpenAI** (openai.com) | Your photo + text prompt | Subject to OpenAI's data policies |
+| **Google** (cloud.google.com) | Your photo + text prompt | Subject to Google's data policies |
 
-### Accessing Your Personal Information
+These services are based overseas (primarily in the United States). By using the App, you consent to your photos and prompts being transferred to and processed in the United States and other countries where these providers operate.
 
-You have a right to access your personal information, subject to exceptions allowed by law. If you would like to do so, please let us know. You may be required to put your request in writing for security reasons. _Foobar Creative_ reserves the right to charge a fee for searching for, and providing access to, your information on a per request basis.
+Some Pixelfix features — such as professional headshots and portrait enhancements — involve processing photos of people. If your photo contains a person other than yourself, you are responsible for obtaining their consent before submitting it.
 
-### Contacting us
+We do not use your photos or prompts to train AI models.
 
-_Foobar Creative_ welcomes your comments regarding this Privacy Policy. If you have any questions about this Privacy Policy and would like further information, please [contact us via email](mailto:support@pixelfixapp.com).
+---
+
+### 3. How We Store Your Data
+
+Your projects (original photos and AI-generated results) are stored on our Google Cloud servers. They are deleted when you delete the project from the App.
+
+Your anonymous account and its associated data are stored for as long as you have the App installed. If you uninstall the App, this data may be permanently deleted.
+
+---
+
+### 4. How We Use Your Information
+
+- To process your AI photo requests and return results
+- To store your projects so you can access them within the App
+- To monitor app performance, fix bugs, and improve the product
+- To respond to support enquiries
+
+We do not sell your information. We do not use your photos or prompts to train AI models.
+
+---
+
+### 5. Deleting Your Data
+
+You can delete individual projects at any time from within the App. Deleting a project permanently removes the associated photos from our servers.
+
+To request deletion of your anonymous account and all associated data, please contact us at [support@pixelfixapp.com](mailto:support@pixelfixapp.com).
+
+---
+
+### 6. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. Continued use of the App after changes are posted constitutes acceptance of the updated policy. We'll update the "Last updated" date above when changes are made.
+
+---
+
+### 7. Contact
+
+If you have any questions about this Privacy Policy or would like to access or correct information we hold about you, please contact us at [support@pixelfixapp.com](mailto:support@pixelfixapp.com).
