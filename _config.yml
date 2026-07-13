@@ -24,6 +24,16 @@ app_category                              : MultimediaApplication               
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 og_image                                  : assets/pixelfix_og_image.jpg                    # The default open graph image
 
+enable_guides                             : false                                     # Set to true to link the /guides index in the header and footer. Add guide markdown files to _guides/.
+
+# Screenshot Gallery (optional). A lightweight scroll-snap gallery shown between the hero and the feature list.
+# List your App Store screenshots (self-hosted, e.g. in assets/screenshot/). Omit gallery_images to hide the section.
+gallery_title                             :                                           # e.g. "See it in action"
+gallery_images                            :
+#  - path                                  : assets/screenshot/gallery-1.webp
+#    alt                                   : Describe the screenshot for SEO and accessibility
+#    width                                 : 600                                      # Intrinsic pixel size (defaults to 600x1300)
+#    height                                : 1300
 
 # Information About Yourself
 your_name                                 : Foobar Creative                                
@@ -170,6 +180,16 @@ collections:
   pages:
     output: true
     permalink: /:path
+  guides:
+    output: true
+    permalink: /guides/:slug
+
+defaults:
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
 
 # Markdown rendering
 markdown: kramdown

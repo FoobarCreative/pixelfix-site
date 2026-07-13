@@ -1,0 +1,26 @@
+---
+layout: page
+title: Guides
+permalink: /guides
+redirect_from:
+  - /guides/
+include_in_header: false
+include_in_footer: false
+description: "Step-by-step guides."
+---
+
+<div class="guides-hub">
+
+  <h1>Guides</h1>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5em; margin-top: 2em;">
+    {% assign guides = site.guides | sort: "date" | reverse %}
+    {% for guide in guides %}
+      <a href="{{ guide.url | relative_url }}" target="_self" style="display: block; padding: 1.5em; background: #f8f9fa; border-radius: 12px; text-decoration: none; color: inherit;">
+        <h3 style="margin: 0 0 0.5em 0; color: {{ site.default_primary }}; font-size: 1.1em;">{{ guide.short_title | default: guide.title }}</h3>
+        <p style="margin: 0; font-size: 0.9em; color: #666; line-height: 1.5;">{{ guide.description }}</p>
+      </a>
+    {% endfor %}
+  </div>
+
+</div>
