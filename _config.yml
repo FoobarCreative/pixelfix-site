@@ -1,6 +1,12 @@
 #page title
 page_title                                : Pixelfix                              # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
+# Search result copy (homepage <title> and meta description). Never rendered on the page,
+# so write for Google: ~60 chars for the title, ~150 for the description.
+# Leave blank to fall back to page_title / app_description.
+seo_title                                 : "Pixelfix: AI Photo Editor for iPhone"
+seo_description                           : "Fix, enhance and transform your photos with cutting edge AI. Remove objects, upscale resolution, restore old photos and colorize black and white shots."
+
 # Site URL (required for sitemap)
 url                                       : https://www.pixelfixapp.com
 
