@@ -31,5 +31,5 @@ Keep each step to one action. Put images in their own paragraph (blank line befo
 ## Tips
 
 - Guides live in `_guides/` and are published at `/guides/<filename>`.
-- Set `enable_guides: true` in `_config.yml` to link the `/guides` index from the header and footer.
+- Set `enable_guides: true` in `_config.yml` and remove `_pages/guides.html` from `exclude:` to build and link the `/guides` index.
 - Keep guide images at ~640px wide WebP; they display capped at 414px and centered.
