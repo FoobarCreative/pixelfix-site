@@ -31,6 +31,14 @@
 	<meta property="og:image" content="{{ page.og_image | default: site.og_image | absolute_url }}">
 	<meta property="og:image:alt" content="{{ page.og_image_alt | default: 'Pixelfix - AI Photo Enhancer' }}">
 
+	<!-- Twitter Card tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@{{ site.twitter_username }}">
+	<meta name="twitter:title" content="{{ page.og_title | default: page.title | default: site.page_title }}">
+	<meta name="twitter:description" content="{{ page.og_description | default: page.description | default: site.app_description | strip_newlines | strip }}">
+	<meta name="twitter:image" content="{{ page.og_image | default: site.og_image | absolute_url }}">
+	<meta name="twitter:image:alt" content="{{ page.og_image_alt | default: site.og_image_alt | default: site.page_title }}">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 	<!-- Structured data (Schema.org) — gives Google richer signals for search results -->
 	<script type="application/ld+json">
